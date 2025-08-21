@@ -35,7 +35,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// a sequência dos middlewares é importante 
+// a sequência é importante 
 
 app.UseHttpsRedirection();
 
