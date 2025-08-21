@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/GaleriaOnline.WebApi/imagens/7931bcbc-5afd-441c-9070-086b8e8ff630.imdvvq6uds.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\7931bcbc-5afd-441c-9070-086b8e8ff630.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"imdvvq6uds"},{"Name":"integrity","Value":"sha256-ul0oOz02jmpUHy/8e3H63pvTLNTAQbDCjLgm2ZQkgK8="},{"Name":"label","Value":"_content/GaleriaOnline.WebApi/imagens/7931bcbc-5afd-441c-9070-086b8e8ff630.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37597"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ul0oOz02jmpUHy/8e3H63pvTLNTAQbDCjLgm2ZQkgK8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 11:36:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GaleriaOnline.WebApi/imagens/7931bcbc-5afd-441c-9070-086b8e8ff630.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\7931bcbc-5afd-441c-9070-086b8e8ff630.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ul0oOz02jmpUHy/8e3H63pvTLNTAQbDCjLgm2ZQkgK8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37597"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ul0oOz02jmpUHy/8e3H63pvTLNTAQbDCjLgm2ZQkgK8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 11:36:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GaleriaOnline.WebApi/imagens/8203eb2d-046c-45b5-bf07-a500d8b468ee.e3q83yqnkx.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\8203eb2d-046c-45b5-bf07-a500d8b468ee.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

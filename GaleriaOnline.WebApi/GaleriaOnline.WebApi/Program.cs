@@ -35,6 +35,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// a sequência dos middlewares é importante 
+
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();

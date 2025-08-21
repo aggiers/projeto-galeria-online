@@ -20,7 +20,7 @@ namespace GaleriaOnline.WebApi.Repositories
 
         public async Task<Imagem?> GetByIdAsync(int id)
         {
-            return await _context.Imagens.FindAsync();
+            return await _context.Imagens.FindAsync(id);
         }
 
         public async Task<Imagem> CreateAsync(Imagem imagem)
@@ -38,7 +38,8 @@ namespace GaleriaOnline.WebApi.Repositories
         public async Task<bool> DeleteAsync(int id)
         {
             var imagem = await _context.Imagens.FindAsync(id);
-            if (imagem != null)
+
+            if (imagem == null)
             {
                 return false;
             }
